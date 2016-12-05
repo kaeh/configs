@@ -4,6 +4,7 @@
     ~/.vimrc: vim/vimrc
     ~/.zshrc: zsh/zshrc
     ~/.oh-my-zsh: zsh/oh-my-zsh
+    ~/.solarized: solarized
 
 - shell:
     - ['git submodule update --init', 'Installing/updating submodules']
