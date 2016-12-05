@@ -4,9 +4,6 @@
     ~/.vimrc: vim/vimrc
     ~/.zshrc: zsh/zshrc
     ~/.oh-my-zsh: zsh/oh-my-zsh
-    ~/.fonts: fonts
 
 - shell:
     - ['git submodule update --init --recursive', 'Installing/updating submodules']
-    - ['sudo apt-get install fontconfig', 'Install fontconfig']
-    - ['fc-cache -vf ~/.fonts/', 'Update font cache']
