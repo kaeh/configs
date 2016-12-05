@@ -6,4 +6,4 @@
     ~/.oh-my-zsh: zsh/oh-my-zsh
 
 - shell:
-    - ['git submodule update --init --recursive', 'Installing/updating submodules']
+    - ['git submodule update --init', 'Installing/updating submodules']
