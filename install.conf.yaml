@@ -6,6 +6,3 @@
     ~/.zshrc: zsh/zshrc
     ~/.oh-my-zsh: zsh/oh-my-zsh
     ~/.solarized: solarized
-
-- shell:
-    - ['git submodule update --recursive', 'Installing/updating submodules']
