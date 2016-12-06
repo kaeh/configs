@@ -4,5 +4,7 @@
     ~/.bashrc: bash/bashrc
     ~/.vimrc: vim/vimrc
     ~/.zshrc: zsh/zshrc
-    ~/.oh-my-zsh: zsh/ohmyzsh
+    ~/.oh-my-zsh: oh-my-zsh
     ~/.solarized: solarized
+
+- shell: ['git submodule update --init --recursive', 'Installing/updating submodules']
