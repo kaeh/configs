@@ -7,7 +7,7 @@
     ~/.vimrc: vim/vimrc
     ~/.zshrc: zsh/zshrc
     ~/.oh-my-zsh: oh-my-zsh
-    ~/.solarized: solarized,
+    ~/.solarized: solarized
     ~/.fonts/fura_ligatured_patched.otf: fonts/fura_ligatured_patched.otf
 
 - shell: ['git submodule update --init --recursive', 'Installing/updating submodules']
