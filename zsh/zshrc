@@ -80,3 +80,6 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 
 eval `dircolors ~/.solarized/dircolors.ansi-dark`
+
+# Niji's inception
+source ~/.bash_inception
