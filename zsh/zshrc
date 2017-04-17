@@ -82,4 +82,4 @@ source $ZSH/oh-my-zsh.sh
 eval `dircolors ~/.solarized/dircolors.ansi-dark`
 
 # Niji's inception
-source ~/.bash_inception
+#source ~/.bash_inception
