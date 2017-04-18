@@ -1,6 +1,8 @@
 - clean: ['~']
 
-- shell: ['mkdir -p ~/.fonts/', 'Create fonts directory if not exists']
+- shell: 
+    ['mkdir -p ~/.fonts/', 'Create fonts directory if not exists']
+    ['mkdir -p ~/.config/nvim/init.vim', 'Create neovim directories if not exists']
 
 - link:
     ~/.bashrc: bash/bashrc
@@ -10,6 +12,7 @@
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/plugins/autosuggestions/zsh-autosuggestions
     ~/.oh-my-zsh/custom/zsh_autosuggestions.zsh: zsh/plugins/autosuggestions/zsh_autosuggestions.zsh
     ~/.solarized: solarized
-    ~/.fonts/fura_ligatured_patched.otf: fonts/fura_ligatured_patched.otf
+    ~/.fonts/fura_ligatured_patched.otf: fonts/fura_ligatured_patched.otfi
+    ~/.config/nvim/init.vim: nvim/init.vim
 
 - shell: ['git submodule update --init --recursive', 'Installing/updating submodules']

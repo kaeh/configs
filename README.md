@@ -7,4 +7,8 @@ Then install the Fura_ligatured_patched.otf on windows (double click on it -> In
 You can now choose "Fura" on the ConEmu settings.
 
 # Todo
-Add commitizen
+* Add commitizen
+* Add nvim installation
+* Add oni installation
+* Add worp/ale (linter) installation
+* Add xo installation
