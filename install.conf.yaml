@@ -3,10 +3,8 @@
 - shell:
     [ 
         ['mkdir -p ~/.fonts/', 'Create fonts directory if not exists'],
-        ['mkdir -p ~/.config/nvim/init.vim', 'Create neovim directories if not exists'],
-        ['mkdir -p ~/.oh-my-zsh/custom/plugins', 'Create ohmyzsh custom directories'],
+        ['mkdir -p ~/.config/nvim/', 'Create neovim directories if not exists'],
         ['rm -rf ~/.bashrc', 'Delete basic bashrc dotfile'],
-        ['rm -rf ~/.config/nvim/init.vim', 'Delete basic init.vim file']
     ]
 
 - link:
@@ -14,8 +12,6 @@
     ~/.vimrc: vim/vimrc
     ~/.zshrc: zsh/zshrc
     ~/.oh-my-zsh: oh-my-zsh
-    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/plugins/autosuggestions/zsh-autosuggestions
-    ~/.oh-my-zsh/custom/zsh_autosuggestions.zsh: zsh/plugins/autosuggestions/zsh_autosuggestions.zsh
     ~/.solarized: solarized
     ~/.fonts/fura_ligatured_patched.otf: fonts/fura_ligatured_patched.otf
     ~/.config/nvim/init.vim: nvim/init.vim
