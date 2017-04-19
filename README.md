@@ -7,8 +7,9 @@ Then install the Fura_ligatured_patched.otf on windows (double click on it -> In
 You can now choose "Fura" on the ConEmu settings.
 
 # Todo
-* Add commitizen
-* Add nvim installation
-* Add oni installation
-* Add worp/ale (linter) installation
-* Add xo installation
+* Add ZSH installation
+* Add commitizen (https://github.com/commitizen/cz-cli)
+* Add nvim installation (https://github.com/neovim/neovim)
+* Add oni installation (https://github.com/extr0py/oni)
+* Add worp/ale installation (https://github.com/w0rp/ale)
+* Add xo installation (https://github.com/sindresorhus/xo)
