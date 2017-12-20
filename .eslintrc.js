@@ -1,0 +1,72 @@
+module.exports = {
+    "env": {
+        "browser": true
+    },
+    "globals": {
+        "angular": true,
+        "node": true,
+        "_": true,
+        "$": true,
+        "sprintf": true,
+        "Pikaday": true,
+        "parseBool": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": ["error", 4],
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"],
+        "func-call-spacing": ["error", "never"],
+        "object-curly-spacing": ["error", "always"],
+        "space-before-function-paren": ["error", "never"],
+        "space-before-blocks": ["error", "always"],
+        "comma-spacing": [
+            "error",
+            {
+                "before": false,
+                "after": true
+            }
+        ],
+        "key-spacing": [
+            "error",
+            {
+                "beforeColon": false,
+                "afterColon": true,
+                "mode": "strict"
+            }
+        ],
+        "keyword-spacing": [
+            "error",
+            {
+                "before": false,
+                "after": true,
+                "overrides": {
+                    "else": {"before": true, "after": true},
+                    "this": {"before": true, "after": true}
+                }
+            },
+        ],
+        "semi-spacing": [
+            "error",
+            {
+                "before": false,
+                "after": true
+            }
+        ],
+        "switch-colon-spacing": [
+            "error",
+            {
+                "after": true,
+                "before": false
+            }
+        ],
+        "no-trailing-spaces": [
+            "error",
+            {
+                "skipBlankLines": true,
+                "ignoreComments": false
+            }
+        ],
+        "comma-dangle": ["error", "never"]
+    }
+};
